@@ -30,3 +30,10 @@ Release .mat files and the electrode table; MAT text-header creation day set to 
 ## References
 - Koessler L et al. Catching the invisible: mesial temporal source contribution to simultaneous EEG and SEEG recordings. Brain Topogr 2015;28:5-20. doi:10.1007/s10548-014-0417-z
 - Ternisien E et al. Extracting the invisible: mesial temporal source detection in simultaneous EEG and SEEG recordings. doi:10.21203/rs.3.rs-2201044/v1
+
+## Number of spikes: 1,945 in the files, 1,949 in the release text (fix-20261030, Oct 2026)
+
+The Mendeley Data description (version 2) says "A total of 1,949 IIS was selected". The nine released `.mat` cell arrays
+hold 1,945 one-second epochs (273, 149, 439, 170, 93, 160, 367, 247 and 47 per network), plus one extra last row per
+network with 775 samples that is not an epoch (see "Content" above). All 1,945 epochs are in this dataset. The four
+other spikes are not in the release files; the release does not say which they are. Count 1,945.
